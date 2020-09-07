@@ -92,6 +92,10 @@ button{
     border-bottom-right-radius: 5px;
     background-color: #C89979;
 }
+.fa-search{
+    color: #fff;
+    font-size: 20px;
+}
 button:hover{
     background-color: #c0a18c;
 }
@@ -183,7 +187,7 @@ button:hover{
     border-color: #C89979;
 }
 .banner__next{
-
+    position: relative;
 }
 .banner__next-list{
     display: flex;
@@ -209,8 +213,42 @@ button:hover{
     color: #cccccc;
 }
 .banner__wrap{
+    width: 600px;
+    height: 300px;
     position: absolute;
-    width: 1200px;
-    height: inherit;
-    margin: 0 160px;
+    top: -441px;
+    left: 192px;
+}
+.banner__wrap h4{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.banner__wrap h1{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.banner__wrap p{
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.btn__view{
+    position: relative;
+    top: 30px;
+    border: 2px solid #cccccc;
+    padding: 16px 34px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+.btn__view span{
+    color: #ffffff;
+    font-weight: 600;
+}
+.btn__view:hover{
+    background-color: #C89979;
+    border-color: #C89979;
 }
